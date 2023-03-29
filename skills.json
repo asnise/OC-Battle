@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Basic Attack",
+        "damage": 10
+    },
+    {
+        "name": "Fireball",
+        "damage": 20
+    },
+    {
+        "name": "Heal",
+        "healing": 20
+    },
+    {
+        "name": "Shield",
+        "block": 10
+    },
+    {
+        "name": "Ice Shard",
+        "damage": 15
+    },
+    {
+        "name": "Poison Dart",
+        "poisoned": true,
+        "poison": 10,
+        "poison_turns": 3
+    },
+    {
+        "name": "Thunderstrike",
+        "damage": 25
+    },
+    {
+        "name": "Ice Lance",
+        "damage": 15
+    },
+    {
+        "name": "Regeneration",
+        "healing": 25
+    },
+    {
+        "name": "Reflect",
+        "block": 15
+    },
+    {
+        "name": "Curse",
+        "damage": 10,
+        "effect": "reduce target's damage by 50% for 2 turns"
+    },
+    {
+        "name": "Berserk",
+        "damage": 30,
+        "effect": "reduce user's defense by 50% for 2 turns"
+    }
+]

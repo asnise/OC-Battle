@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turn-based RPG game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="Sawer.png" class="scene">
+    <div class="container">
+      <div class="status">
+        <div class="player_hp">
+        <h2 id="player_name"></h2>
+        <div class="health-bar">
+          <div id="player-health_bar"></div>
+        </div>
+          <span></span>
+          <span id="player-health"></span>
+        </div>
+        <div class="enemy_hp">
+        <h2 id="enemy_name"></h2>
+        <div class="health-bar">
+          <div id="enemy-health_bar"></div>
+        </div>
+    
+          <span></span>
+          <span id="enemy-health"></span>
+        </div>
+      </div>
+      <div class="actions">
+        <div id="skill-buttons"></div>
+      </div>
+      <div class="message-box" id="message-box"></div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
